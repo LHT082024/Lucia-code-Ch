@@ -11,8 +11,11 @@ class Program
         one.PrintNumbers();
 
         string[] lol = {"\nthe world", "is not in your books or maps", "it's out there."};
-        
         one.PrintStrings(lol);
+
+       
+        int number = -1;
+        one.CheckIfNumberIsPositiveOrNegative(number);
 
 
         // validate some methods

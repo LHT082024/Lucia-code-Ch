@@ -21,7 +21,22 @@ public class Challenge_one
 
     public void CheckIfNumberIsPositiveOrNegative(int number)
     {
-        /*
+        if(number == 0)
+        {
+            Console.WriteLine("\nNumber is zero\n");
+        }
+
+        else if (number > 0)
+        {
+            Console.WriteLine("\nNumber is positive\n");
+        }
+
+        else  
+        {
+           Console.WriteLine("\nNumber is negative\n");
+        }
+        
+                /*
         Todo: Check if a number is positive, negative or zero.
         */
     }
