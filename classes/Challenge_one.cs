@@ -2,11 +2,17 @@ public class Challenge_one
 {
     public void PrintNumbers()
     {
-        // Todo: Print out the numbers 1 - 10
+ 
+        for(int number = 1; number < 11; number++) 
+        {
+            Console.WriteLine(number);
+        }
+        
     }
 
     public void PrintStrings(string[] arr)
     {
+        Console.WriteLine( "koll");
         /* Todo: Print out each string that is passed to the array as an argument*/
     }
 
