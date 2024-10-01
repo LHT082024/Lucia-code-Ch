@@ -12,7 +12,10 @@ public class Challenge_one
 
     public void PrintStrings(string[] arr)
     {
-        Console.WriteLine( "koll");
+        foreach(string lol in arr)
+        {
+            Console.WriteLine(lol); 
+        }
         /* Todo: Print out each string that is passed to the array as an argument*/
     }
 

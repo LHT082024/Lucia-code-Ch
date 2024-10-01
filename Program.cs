@@ -10,6 +10,10 @@ class Program
 
         one.PrintNumbers();
 
+        string[] lol = {"\nthe world", "is not in your books or maps", "it's out there."};
+        
+        one.PrintStrings(lol);
+
 
         // validate some methods
         void ValidateRecursiveFactorial()
